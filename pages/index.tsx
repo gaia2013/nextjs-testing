@@ -1,8 +1,10 @@
-const Home: React.FC = ()=>{
-  return(
-    <div className="flex justify-center items-center flex-col min-h-screen font-mono">
-      Hello Nextjs
-    </div>
+import Layout from '../components/Layout'
+
+const Home: React.FC = () => {
+  return (
+    <Layout title="Home">
+      <p className="text-4xl">Welcome to Nextjs</p>
+    </Layout>
   )
 }
 export default Home
