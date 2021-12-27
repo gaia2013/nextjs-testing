@@ -7,27 +7,32 @@ import CommentPage from '../pages/comment-page'
 
 const server = setupServer(
   rest.get(
-    'https://jsonplaceholder.typicode.com/comments/?_limit=10',
+    'https://jsonplaceholder.typicode.com/comments/',
     (req, res, ctx) => {
-      return res(
-        ctx.status(200),
-        ctx.json([
-          {
-            postId: 1,
-            id: 1,
-            name: 'A',
-            email: 'dummya@gmail.com',
-            body: 'test body a',
-          },
-          {
-            postId: 2,
-            id: 2,
-            name: 'B',
-            email: 'dummyb@gmail.com',
-            body: 'test body b',
-          },
-        ])
-      )
+      const query = req.url.searchParams
+      const _limit = query.get('_limit')
+
+      if (_limit === '10') {
+        return res(
+          ctx.status(200),
+          ctx.json([
+            {
+              postId: 1,
+              id: 1,
+              name: 'A',
+              email: 'dummya@gmail.com',
+              body: 'test body a',
+            },
+            {
+              postId: 2,
+              id: 2,
+              name: 'B',
+              email: 'dummyb@gmail.com',
+              body: 'test body b',
+            },
+          ])
+        )
+      }
     }
   )
 )
@@ -51,9 +56,13 @@ describe('Comment page with useSWR / Success+Error', () => {
   it('should render Error text when fetch failed', async () => {
     server.use(
       rest.get(
-        'https://jsonplaceholder.typicode.com/comments/?_limit=10',
+        'https://jsonplaceholder.typicode.com/comments/',
         (req, res, ctx) => {
-          return res(ctx.status(400))
+          const query = req.url.searchParams
+          const _limit = query.get('_limit')
+          if (_limit === '10') {
+            return res(ctx.status(400))
+          }
         }
       )
     )
@@ -63,6 +72,5 @@ describe('Comment page with useSWR / Success+Error', () => {
       </SWRConfig>
     )
     expect(await screen.findByText('Error!')).toBeInTheDocument()
-    screen.debug()
   })
 })
