@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from 'next/dynamic'
+
 
 interface TITLE { // generics で interfaceから型定義
   title: string
