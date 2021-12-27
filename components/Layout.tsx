@@ -72,7 +72,7 @@ const Layout: React.FC<TITLE> = ({children, title='Nextjs'})=>{
           rel="noopener noreferrer"
         >
           Powered by
-          <img src="/verce.svg" alt="Vercel Logo" className="h4 ml-2" />
+          <img src="/vercel.svg" alt="Vercel Logo" className="h4 ml-2" />
         </a>
       </footer>
     </div>
