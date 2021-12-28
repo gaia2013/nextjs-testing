@@ -33,6 +33,11 @@ https://nextjs-testing-snowy.vercel.app/
 
 
 
+<img width="1552" alt="スクリーンショット 2021-12-28 14 14 14" src="https://user-images.githubusercontent.com/3797539/147530755-7fa20f1a-e6b5-4ac8-98b8-63efdbfaad91.png">
+
+<img src="https://user-images.githubusercontent.com/3797539/147530843-3b378d72-dfea-4737-a9af-4de464e86db4.png">
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
