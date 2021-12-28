@@ -19,13 +19,12 @@
 <img width="351" alt="スクリーンショット 2021-12-27 19 23 13" src="https://user-images.githubusercontent.com/3797539/147463726-54ee54a3-fa1c-4106-8845-2ef7e8375fc8.png">
 <img src="https://user-images.githubusercontent.com/3797539/147463800-5f1efaeb-11c7-4619-8724-1e3d91d9d603.png">
 
-
+<img width="1552" alt="スクリーンショット 2021-12-27 23 39 09" src="https://user-images.githubusercontent.com/3797539/147482514-a005a597-161b-45a2-8bc5-e58e27d19089.png">
 <img width="1552" alt="スクリーンショット 2021-12-27 23 39 14" src="https://user-images.githubusercontent.com/3797539/147482519-e36736b1-94b4-4bb1-b6cd-cefa2b8c6ae5.png">
 <img width="357" alt="スクリーンショット 2021-12-27 23 45 27" src="https://user-images.githubusercontent.com/3797539/147482526-6d61fa37-3b42-496d-81df-ee0e245ac79b.png">
 
 
 
-![スクリーンショット 2021-12-28 11 24 44](https://user-images.githubusercontent.com/3797539/147530047-42a37a12-415a-4f10-92dc-541010c4ae98.png)
 <img width="1552" alt="スクリーンショット 2021-12-28 13 26 15" src="https://user-images.githubusercontent.com/3797539/147530053-0ce68190-2604-4f65-9715-311f8bc3d48c.png">
 <img width="357" alt="スクリーンショット 2021-12-28 14 04 24" src="https://user-images.githubusercontent.com/3797539/147530055-40332c90-ef81-48ad-b029-a9a68428a76b.png">
 
